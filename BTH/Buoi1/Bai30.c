@@ -16,6 +16,7 @@ int main()
   int n, k = 0;
   printf("Nhap n: ");
   scanf("%d", &n);
+
   int s = deQuy(n, k);
   printf("s = %d", s);
 }
