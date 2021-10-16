@@ -16,7 +16,7 @@ void BFS(int x)
     {
         int u = s.front();
         s.pop();
-        cout << u << " -> ";
+        cout << " -> " << u;
         for (int i = 0; i < a[u].size(); i++)
         {
             int k = a[u][i];
